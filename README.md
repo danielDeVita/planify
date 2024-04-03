@@ -7,7 +7,7 @@ La aplicación Planify es una plataforma web que permite a los usuarios reservar
 1. Clona el repositorio:
 
    ```bash
-   git clone https://github.com/tu-usuario/tu-repositorio.git
+   git clone https://github.com/danielDeVita/planify
    ```
 
 2. cd tu-repositorio
