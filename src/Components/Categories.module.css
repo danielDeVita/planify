@@ -1,0 +1,55 @@
+h1 {
+  margin-bottom: 10px;
+  margin-left: 5px;
+  display: flex;
+}
+
+.categoriesContainer {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between; /* Alinea el contenido al final */
+}
+
+.categoriesHeader {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.expandIcon {
+  float: right;
+  margin-left: auto;
+}
+
+.categoryButton {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-bottom: 5px;
+  width: 100%;
+  text-align: left;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.categoryButton:hover {
+  background-color: #e0e0e0;
+}
+
+.nextButton {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 10px;
+  cursor: pointer;
+  margin-top: 10px;
+  align-self: flex-end;
+}
+
+.nextButton:hover {
+  background-color: #e0e0e0;
+}

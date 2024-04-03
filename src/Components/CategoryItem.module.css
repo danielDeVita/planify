@@ -1,0 +1,31 @@
+.categoryItem {
+  border: 1px solid #ccc;
+  list-style-type: none;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 5px;
+  display: block; /* Cambiado a flex para alinear los elementos */
+  justify-content: space-between; /* Alinea los elementos a los extremos */
+  align-items: center;
+}
+
+.categoryInfo {
+  flex: 1; /* El texto ocupa todo el espacio restante */
+}
+
+.buttonContainer {
+  width: 100%;
+  display: flex;
+  justify-content: flex-end;
+}
+
+.selectButton {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+
+.selectButton:hover {
+  background-color: #ccc;
+}

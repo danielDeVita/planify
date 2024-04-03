@@ -1,0 +1,66 @@
+.scheduleContainer {
+  border: 1px solid #ccc;
+  padding: 20px;
+  width: 400px;
+  margin: auto;
+}
+
+.scheduleHeader {
+  font-size: 1.2rem;
+  margin-bottom: 10px;
+}
+
+.timeslotsContainer {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.timeslotButton {
+  background-color: #f0f0f0;
+  border: 1px solid #ccc;
+  padding: 5px 10px;
+  cursor: pointer;
+  min-width: 100px;
+  text-align: center;
+}
+
+.timeslotButton:hover {
+  background-color: #e0e0e0;
+}
+
+.buttonContainer {
+  border: 1px solid #ccc;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin-top: 10px; /* Separación entre los botones y los demás elementos */
+}
+
+.backButton,
+.nextButton {
+  background-color: #f0f0f0;
+  border: none;
+  padding: 5px 15px;
+  cursor: pointer;
+  margin: 10px;
+}
+
+.backButton:hover,
+.nextButton:hover {
+  background-color: #e0e0e0;
+}
+
+.timeslotsList {
+  list-style: none; /* Elimina los bullets de la lista */
+  padding: 0;
+  display: grid;
+  margin-left: 15%;
+  grid-template-columns: repeat(2, 1fr); /* Dos columnas de igual tamaño */
+  gap: 10px; /* Espacio entre los botones */
+}
+
+.selectedTimeslot {
+  background-color: #c0c0c0; /* Color oscuro para horario seleccionado */
+}
